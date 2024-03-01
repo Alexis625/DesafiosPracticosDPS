@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+label,
+select,
+input,
+button {
+  font-family: 'Roboto', sans-serif;
+}
+
+.Fondo {
+  background-color: #f1cae2; /* Color de fondo */
+  padding: 20px; /* Espacio interno */
+  min-height: 100vh;
+  border-radius: 30px;
+}
+
+/* Estilos para el contenedor */
+.Container {
+  display: flex; /* Utilizar flexbox */
+  background-color: #E5DED8; /* Color de fondo */
+  border-radius: 20px; /* Borde redondeado */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+  padding: 20px; /* Espacio interno */
+  margin: 20px; /* Margen exterior */
+  min-height: 100vh;
+  flex-wrap: wrap; /* Permitir el ajuste de contenido en múltiples líneas */
+}
+
+.datos {
+  display: flex; /* Utilizar flexbox */
+  flex-direction: column; /* Apilar elementos verticalmente */
+  flex: 1; /* Permitir que se ajuste al espacio disponible */
+}
+
+/* Estilos para el aside */
+.Formulario {
+  background-color: #FFFFFF; /* Color con efecto cristal */
+  border-radius: 20px; /* Borde redondeado */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+  padding: 20px; /* Espacio interno */
+  position: relative; /* Posición relativa */
+  margin-right: 20px; /* Margen derecho para separarlo de los otros elementos */
+  width: 250px;
+  height: 30%;
+}
+
+/* Estilos para los elementos Noambientales y Ambientales */
+.Noambientales,
+.ambientales,
+.Total {
+  background-color: #FFFFFF; /* Color con efecto cristal */
+  border-radius: 20px; /* Borde redondeado */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+  padding: 20px; /* Espacio interno */
+  flex: 1; /* Permitir que se ajusten al espacio disponible */
+  margin-bottom: 20px; /* Margen inferior */
+}
+
+/* Estilos para el título */
+.titulo {
+  display: flex; /* Usar flexbox */
+  justify-content: space-between; /* Distribuir elementos */
+  margin-bottom: 10px; /* Margen inferior */
+}
+
+/* Estilos para los elementos de formulario */
+label,
+select,
+input,
+button {
+  display: block; /* Mostrar elementos en bloque */
+  margin-bottom: 10px; /* Margen inferior */
+  max-width: 250px;
+}
+
+.Info{
+  margin-bottom: 3px;
+  background-color: #E5DED8;
+  padding: 2%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.izquierdo {
+  flex-grow: 1;
+  width: 70%;
+}
+
+.derecho {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.borrar {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.Info>p{
+  color: #1d1916;
+}
+
