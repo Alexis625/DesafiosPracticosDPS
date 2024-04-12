@@ -27,7 +27,7 @@ const infoSistemaSolar = ({ route, navigation }) => {
         </Text>
         <Text>
           <Text style={styles.label}>Distancia del Sol:</Text>
-          {sistema.distanciaSol}
+          {sistema.distanciasol}
         </Text>
         <Text>
           <Text style={styles.label}>Orbita:</Text>
@@ -39,11 +39,11 @@ const infoSistemaSolar = ({ route, navigation }) => {
         </Text>
         <Text>
           <Text style={styles.label}>Lunas: </Text>
-          {sistema.lunas}
+          {sistema.luna}
         </Text>
         <Text>
           <Text style={styles.label}>Descripcion: </Text>
-          {sistema.Description} 
+          {sistema.descripcion} 
         </Text>
       </View>
       <Button
