@@ -10,7 +10,7 @@ useEffect(() => {
 
 const fetchSistema = async () => {try {
 const response = await
-fetch('https://66173115ed6b8fa43482235e.mockapi.io/system');
+fetch('https://66194440125e9bb9f2998e6f.mockapi.io/sistema');
 const data = await response.json();
 setSistema(data);
 } catch (error) {
