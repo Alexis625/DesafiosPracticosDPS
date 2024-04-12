@@ -22,7 +22,6 @@ const renderItem = ({ item }) => (
 <Image source={{ uri: item.imagen }} style={styles.ImagenM} />
 <View style={styles.ListaText}>
 <Text style={styles.TextNombre}>{item.pregunta}</Text>
-<Text style={styles.TextPais}>no lo voy a usar</Text>
 </View>
 </View>
 </TouchableOpacity>
